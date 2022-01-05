@@ -1,0 +1,29 @@
+How to Upload file in Git repository by CMD:->
+
+step 1: from located folder or file you want to upload, Open CMD from file location.
+//example: c:/users/desktop/<your folder name>/
+
+//type in cmd 
+step 2: git init
+
+//type to upload all files
+step 3: git add .
+
+	OR
+//type to upload specific file
+step 3: git add <file_name>
+
+//commit with message
+step 4: git commit -m "type your message"
+
+
+step 5: then go to your Github account on github.com and login to your account
+and make a new repository and do the public and create
+
+//attach to your github account repository URL
+//example URL: https://github.com/your git account username/how-to-Upload-Updated-file-in-Git-using-GIT-command.git
+step 6: git remote add origin https://github.com/yourusername/your-repo-name.git
+
+//push in the main branch
+step 6: git push origin main
+
