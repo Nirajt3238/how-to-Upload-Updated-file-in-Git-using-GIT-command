@@ -1,0 +1,7 @@
+git command after changing something in file and 
+update in the GIT repsitory:->
+
+step 1: git add .
+step 2: git status
+step 3: git commit -m "type message"
+step 4: git push-u origin master
